@@ -1,0 +1,19 @@
+
+// Inputs
+input(type="radio" name="item" checked)#section1
+input(type="radio" name="item")#section2
+input(type="radio" name="item")#section3
+input(type="radio" name="item")#section4
+
+// Navigation
+nav.nav
+  - for(var i = 1; i < 5; i++)
+    label(for="section" + i).nav__item
+
+// Sections
+each val in ['One Page', 'Pure CSS', 'Full Screen', '@Ver_Qn']
+  section
+    h1= val
+    
+// Fix the white space when scrolling two sections at the time
+.cover
