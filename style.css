@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Comfortaa&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa);
 input[type='radio'] {
   display: none;
 }
@@ -71,6 +71,39 @@ input[type='radio']#section4:checked ~ .cover {
   background-color: #345d7e;
 }
 
+input[type='radio']#section5:checked ~ nav label[for='section5'] {
+  background-color: white;
+}
+
+input[type='radio']#section5:checked ~ section:nth-of-type(5) {
+  z-index: 1;
+  top: 0;
+  -webkit-transition: top 0.5s ease-in-out;
+  transition: top 0.5s ease-in-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+input[type='radio']#section5:checked ~ .cover {
+  background-color: #c06c85;
+}
+
+input[type='radio']#section6:checked ~ nav label[for='section6'] {
+  background-color: white;
+}
+
+input[type='radio']#section6:checked ~ section:nth-of-type(6) {
+  z-index: 1;
+  top: 0;
+  -webkit-transition: top 0.5s ease-in-out;
+  transition: top 0.5s ease-in-out;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+input[type='radio']#section6:checked ~ .cover {
+  background-color: #c06c85;
+}
 .nav {
   position: fixed;
   z-index: 2;
