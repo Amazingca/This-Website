@@ -1,17 +1,4 @@
-html { 
-  background: url(https://lh3.google.com/u/0/d/1Xzy9pD4mD5_qe5yhUZWsJ-s7egmeSTNA=w1680-h977-iv1) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border: 7px solid #111111;
-  border-radius: 60px
-}
-html {
-  background:before
-    border: 1px solid #111111
-    border-radius: 10px
-}
 img.rounded-corners {
-  border-radius: 30px;
+  border-radius: 56px;
+  border: 6px solid #111111;
 }
