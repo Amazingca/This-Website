@@ -2,11 +2,7 @@
   object-fit: cover;
   border-radius: 56px;
   border: 8px solid #111111;
-  width: auto;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
 }
 
-img {
-  width: auto;
-  height: auto;
-}
