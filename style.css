@@ -1,6 +1,6 @@
 .rounded-corners {
   object-fit: cover;
-  width: 100%;
+  width: 100vh;
   height: 100vh;
 }
 
